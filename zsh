@@ -16,7 +16,6 @@ RPROMPT='%{$fg[cyan]%}$(kcontext)%{$reset_color%}'
 export PATH
 alias ll="ls -lah"
 alias dc="docker-compose"
-alias gimmi="gimme-aws-creds --roles /Okta-SELeads/"
 alias cleardns='sudo dscacheutil -flushcache;sudo killall -HUP mDNSResponder; echo cache flushed'
 
 export GO111MODULE=on
